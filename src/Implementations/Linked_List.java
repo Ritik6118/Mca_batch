@@ -70,10 +70,14 @@ public class Linked_List {
 		return temp.data;
 	}
 	public int remove_Last() {
+		if(size==1) {
+			return remove_First();
+		}
 		Node prev=getNode(size-2);
 		Node temp=tail;
 		tail=prev;
 		prev.next=null;
+		size--;
 		return temp.data;
 	}
 	public int remove_At_Index(int idx) {
