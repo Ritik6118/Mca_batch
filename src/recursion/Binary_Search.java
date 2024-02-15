@@ -4,10 +4,10 @@ public class Binary_Search {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr= {1,2,3,4,5,6,7,8,9,10};
+		int[] arr= {1,4,8,10};
 		
-		System.out.println(bin(arr,7));
-//		System.out.println(recbin(arr,0,arr.length-1,7));
+//		System.out.println(bin(arr,7));
+		System.out.println(recbin(arr,0,arr.length-1,1));
 		
 	}
 

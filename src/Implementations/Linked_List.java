@@ -95,6 +95,21 @@ public class Linked_List {
 		size--;
 		return temp.data;
 	}
+	public void create_cycle(int idx) {
+		Node temp=getNode(idx);
+		tail.next=temp;
+	}
+	public void remove_cycle() {
+		Node slow=head;
+		Node fast=head;
+		while(fast!=null && fast.next!=null) {
+			if(slow.next==fast.next.next) {
+				
+			}
+			slow=slow.next;
+			fast=fast.next.next;
+		}
+	}
 	@Override
 	public String toString() {
 		String s="";
