@@ -6,7 +6,7 @@ public class code_to_string {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=12149;
+		int n=12259;
 		String s=""+n;
 //		decode(s,"");
 		ArrayList<String> li=new ArrayList<>();

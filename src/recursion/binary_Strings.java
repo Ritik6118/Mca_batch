@@ -4,7 +4,8 @@ public class binary_Strings {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s="1??0?101";
+//		String s="1??0?101";
+		String s="101??010?";
 		outcomes(s,"");
 	}
 
