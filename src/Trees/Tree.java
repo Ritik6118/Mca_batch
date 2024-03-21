@@ -4,7 +4,7 @@ import java.util.*;
 import Trees.Tree.TreeNode;
 
 public class Tree {
-	class TreeNode {
+	static class TreeNode {
 		int val;
 		TreeNode left;
 		TreeNode right;
